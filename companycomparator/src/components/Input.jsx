@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Input(props) {
     return (
-        <input
+        <input className="css-input"
             name={props.name}
             type={props.type}
             onChange={props.onChange}

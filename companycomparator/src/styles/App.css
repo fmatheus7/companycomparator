@@ -7,3 +7,46 @@
 .desc {
 text-align: center;
 }
+
+.css-input {
+  padding: 9px;
+  font-size: 15px;
+  border-width: 4px;
+  border-color: #CCCCCC;
+  background-color: rgb(225, 220, 226);
+  color: #000000;
+  border-style: solid;
+  border-radius: 26px;
+  box-shadow: 10px 2px 5px rgba(66,66,66,.18);
+  text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  width: 20rem;
+}
+.css-input:focus {
+  outline:none;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.label {
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  justify-content: center;
+  text-align: left;
+  padding: 10px;
+}
