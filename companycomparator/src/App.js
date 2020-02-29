@@ -13,7 +13,6 @@ function App() {
         <Form />
         <Form />
       </div>
-      <Chart />
     </div>
   );
 }

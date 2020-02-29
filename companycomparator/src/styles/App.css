@@ -1,11 +1,13 @@
 .title {
   align-items: center;
-  font-size: 2rem;
+  font-size: 4rem;
   text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .desc {
 text-align: center;
+font-size: 1.5rem;
 }
 
 .css-input {
@@ -50,3 +52,8 @@ body {
   text-align: left;
   padding: 10px;
 }
+
+/* .grafico {
+display: flexbox;
+margin-left: 70vh;
+} */
